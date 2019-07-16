@@ -1,15 +1,9 @@
-<%--
-   Author: Yaking
-   Date: 2019-07-15 17:02
-   Describe: 
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page isELIgnored="false" %>
 <html>
-<head>
-    <title>Title</title>
-</head>
 <body>
-${name}
+<h2>添加的商品信息</h2>
+商品名称：${goods.name}<br/>
+商品价格：${goods.price}
 </body>
 </html>
